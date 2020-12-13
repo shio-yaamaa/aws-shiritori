@@ -1,0 +1,478 @@
+services: # Mainly from https://aws.amazon.com/products/
+  # Analytics
+  - name: Athena
+    acronym: null
+  - name: CloudSearch
+    acronym: null
+  - name: Elasticsearch Service
+    acronym: null
+  - name: Elastic Map Reduce
+    acronym: EMR
+  - name: Kinesis
+    acronym: null
+  # - name: Managed Streaming for Apache Kafka
+  #   acronym: null
+  - name: Redshift
+    acronym: null
+  - name: QuickSight
+    acronym: null
+  - name: Data Exchange
+    acronym: null
+  - name: Data Pipeline
+    acronym: null
+  - name: Glue
+    acronym: null
+  - name: Lake Formation
+    acronym: null
+
+  # Application Integration
+  - name: Step Functions
+    acronym: null
+  - name: AppFlow
+    acronym: null
+  - name: EventBridge
+    acronym: null
+  # - name: Managed Workflows for Apache Airflow
+  #   acronym: null
+  - name: MQ
+    acronym: null
+  - name: Simple Notification Service
+    acronym: SNS
+  - name: Simple Queue Service
+    acronym: SQS
+  - name: AppSync
+    acronym: null
+
+  # AWS Cost Management
+  - name: Cost Explorer
+    acronym: null
+  # - name: Budgets
+  #   acronym: null
+  # - name: Cost and Usage Report
+  #   acronym: null
+  # - name: Reserved Instance Reporting
+  #   acronym: null
+  # - name: Savings Plans
+  #   acronym: null
+
+  # Blockchain
+  - name: Managed Blockchain
+    acronym: null
+  - name: Quantum Ledger Database
+    acronym: QLDB
+
+  # Business Applications
+  - name: Alexa for Business
+    acronym: null
+  - name: Chime
+    acronym: null
+  - name: Honeycode
+    acronym: null
+  - name: WorkDocs
+    acronym: null
+  - name: WorkMail
+    acronym: null
+
+  # Compute
+  - name: Elastic Compute Cloud
+    acronym: EC2
+  # - name: EC2 Auto Scaling
+  #   acronym: null
+  - name: Lightsail
+    acronym: null
+  - name: Batch
+    acronym: null
+  - name: Elastic Beanstalk
+    acronym: null
+  - name: Lambda
+    acronym: null
+  - name: Outposts
+    acronym: null
+  # - name: Serverless Application Repository
+  #   acronym: null
+  - name: Snowcone
+    acronym: null
+  - name: Snowball
+    acronym: null
+  - name: Snowmobile
+    acronym: null
+  - name: Wavelength
+    acronym: null
+  # - name: VMware Cloud
+  #   acronym: null
+
+  # Containers
+  - name: Elastic Container Registry
+    acronym: ECR
+  - name: Elastic Container Service
+    acronym: ECS
+  - name: Elastic Kubernetes Service
+    acronym: EKS
+  - name: App2Container
+    acronym: A2C
+  - name: Fargate
+    acronym: null
+
+  # Customer Engagement
+  - name: Connect
+    acronym: null
+  - name: Pinpoint
+    acronym: null
+  - name: Simple Email Service
+    acronym: SES
+
+  # Database
+  - name: Aurora
+    acronym: null
+  - name: DynamoDB
+    acronym: null
+  - name: DocumentDB
+    acronym: null
+  - name: ElastiCache
+    acronym: null
+  - name: Keyspaces
+    acronym: null
+  - name: Neptune
+    acronym: null
+  - name: Relational Database Service
+    acronym: RDS
+  - name: Timestream
+    acronym: null
+  # - name: Database Migration Service
+  #   acronym: null
+
+  # Developer Tools
+  - name: CodeGuru
+    acronym: null
+  - name: Corretto
+    acronym: null
+  - name: Cloud Development Kit
+    acronym: CDK
+  - name: Cloud9
+    acronym: null
+  - name: CodeArtifact
+    acronym: null
+  - name: CodeBuild
+    acronym: null
+  - name: CodeCommit
+    acronym: null
+  - name: CodeDeploy
+    acronym: null
+  - name: CodePipeline
+    acronym: null
+  - name: CodeStar
+    acronym: null
+  # - name: Device Farm
+  #   acronym: null
+  - name: X-Ray
+    acronym: null
+
+  # End User Computing
+  - name: AppStream
+    acronym: null
+  - name: WorkLink
+    acronym: null
+  - name: WorkSpaces
+    acronym: null
+
+  # Front-End Web & Mobile
+  - name: Amplify
+    acronym: null
+  - name: API Gateway
+    acronym: null
+
+  # Game Tech
+  - name: GameLift
+    acronym: null
+  - name: Lumberyard
+    acronym: null
+
+  # Internet of Things
+  - name: IoT Core
+    acronym: null
+  - name: Greengrass
+    acronym: null
+  - name: IoT 1-Click
+    acronym: null
+  - name: IoT Analytics
+    acronym: null
+  - name: IoT Button
+    acronym: null
+  - name: IoT Device Defender
+    acronym: null
+  - name: IoT Device Management
+    acronym: null
+  - name: IoT Events
+    acronym: null
+  - name: IoT SiteWise
+    acronym: null
+  - name: IoT Things Graph
+    acronym: null
+  # - name: Device Qualification Program
+  #   acronym: DQP
+  - name: FreeRTOS
+    acronym: null
+
+  # Machine Learning
+  - name: SageMaker
+    acronym: null
+  - name: Augmented AI
+    acronym: A2I
+  - name: Comprehend
+    acronym: null
+  - name: DevOps Guru
+    acronym: null
+  - name: Elastic Inference
+    acronym: null
+  - name: Forecast
+    acronym: null
+  - name: Fraud Detector
+    acronym: null
+  - name: Kendra
+    acronym: null
+  - name: Lex
+    acronym: null
+  - name: Monitron
+    acronym: null
+  - name: Personalize
+    acronym: null
+  - name: Polly
+    acronym: null
+  - name: Rekognition
+    acronym: null
+  - name: Textract
+    acronym: null
+  - name: Translate
+    acronym: null
+  - name: Transcribe
+    acronym: null
+  - name: DeepComposer
+    acronym: null
+  - name: DeepLens
+    acronym: null
+  - name: DeepRacer
+    acronym: null
+  - name: Inferentia
+    acronym: null
+  - name: Panorama
+    acronym: null
+
+  # Management & Governance
+  - name: CloudWatch
+    acronym: null
+  - name: CloudWatch Logs
+    acronym: null
+  - name: CloudWatch Events
+    acronym: null
+  # - name: Auto Scaling
+  #   acronym: null
+  - name: Chatbot
+    acronym: null
+  - name: CloudFormation
+    acronym: null
+  - name: CloudTrail
+    acronym: null
+  - name: Compute Optimizer
+    acronym: null
+  - name: Config
+    acronym: null
+  - name: Control Tower
+    acronym: null
+  - name: License Manager
+    acronym: null
+  - name: OpsWorks
+    acronym: null
+  - name: Organizations
+    acronym: null
+  - name: Systems Manager
+    acronym: null
+  - name: Trusted Advisor
+    acronym: null
+  # - name: Well-Architected Tools
+  #   acronym: null
+
+  # Media Services
+  - name: Elastic Transcoder
+    acronym: null
+  - name: Interactive Video Service
+    acronym: IVS
+  - name: Kinesis Video Streams
+    acronym: null
+  # - name: Elemental MediaConnect
+  #   acronym: null
+  # - name: Elemental MediaConvert
+  #   acronym: null
+  # - name: Elemental MediaLive
+  #   acronym: null
+  # - name: Elemental MediaPackage
+  #   acronym: null
+  # - name: Elemental MediaStore
+  #   acronym: null
+  # - name: Elemental MediaTailor
+  #   acronym: null
+
+  # Migration & Transfer
+  - name: Migration Hub
+    acronym: null
+  # - name: Application Discovery Service
+  #   acronym: null
+  # - name: Database Migration Service
+  #   acronym: null
+  - name: DataSync
+    acronym: null
+  # - name: Server Migration Service
+  #   acronym: null
+  # - name: CloudEndure Migration
+  #   acronym: null
+  - name: Migration Evaluator
+    acronym: null
+
+  # Networking & Content Delivery
+  - name: Virtual Private Cloud
+    acronym: VPC
+  - name: CloudFront
+    acronym: null
+  - name: Route 53
+    acronym: null
+  - name: PrivateLink
+    acronym: null
+  - name: App Mesh
+    acronym: null
+  - name: Cloud Map
+    acronym: null
+  - name: Direct Connect
+    acronym: null
+  - name: Global Accelerator
+    acronym: null
+  - name: Transit Gateway
+    acronym: null
+  - name: Elastic Load Balancing
+    acronym: ELB
+  - name: Application Load Balancer
+    acronym: ALB
+  - name: Network Load Balancer
+    acronym: NLB
+  - name: Classic Load Balancer
+    acronym: CLB
+
+  # Quantum Technologies
+  - name: Braket
+    acronym: null
+
+  # Robotics
+  - name: RoboMaker
+    acronym: null
+
+  # Satellite
+  - name: Ground Station
+    acronym: null
+
+  # Security, Identity & Compliance
+  - name: Identity & Access Management
+    acronym: IAM
+  - name: Cognito
+    acronym: null
+  - name: Detective
+    acronym: null
+  - name: GuardDuty
+    acronym: null
+  - name: Inspector
+    acronym: null
+  - name: Macie
+    acronym: null
+  - name: Artifact
+    acronym: null
+  - name: Certificate Manager
+    acronym: ACM
+  - name: CloudHSM
+    acronym: null
+  # - name: Directory Service
+  #   acronym: null
+  - name: Firewall Manager
+    acronym: null
+  - name: Key Management Service
+    acronym: KMS
+  - name: Network Firewall
+    acronym: null
+  - name: Resource Access Manager
+    acronym: RAM
+  - name: Secrets Manager
+    acronym: null
+  - name: Security Hub
+    acronym: null
+  - name: Shield
+    acronym: null
+  - name: Single Sign-On
+    acronym: SSO
+  - name: Web Application Firewall
+    acronym: WAF
+
+  # Storage
+  - name: Simple Storage Service
+    acronym: S3
+  - name: Elastic Block Store
+    acronym: EBS
+  - name: Elastic File System
+    acronym: EFS
+  - name: FSx
+    acronym: null
+  - name: Glacier
+    acronym: null
+  # - name: Deep Archive
+  #   acronym: null
+  - name: Backup
+    acronym: null
+  - name: Storage Gateway
+    acronym: null
+  - name: File Gateway
+    acronym: null
+  - name: Tape Gateway
+    acronym: null
+  - name: Volume Gateway
+    acronym: null
+
+  # VR & AR
+  - name: Sumerian
+    acronym: null
+
+  # From other pages
+  # - name: Silk
+  #   acronym: null
+  - name: GovCloud
+    acronym: null
+  - name: Parallel Cluster
+    acronym: null
+  - name: NAT Gateway
+    acronym: null
+  - name: Simple Workflow Service
+    acronym: SWF
+  - name: WorkSpaces Application Manager
+    acronym: WAM
+
+acronyms:
+  - name: Amazon Machine Image
+    acronym: AMI
+  - name: Auto Scaling Group
+    acronym: ASG
+  - name: Amazon Resource Name
+    acronym: ARN
+  - name: Availability Zone
+    acronym: AZ
+  - name: Access Control List
+    acronym: ACL
+  - name: Elastic IP Address
+    acronym: EIP
+  - name: Elastic Network Interface
+    acronym: ENI
+  - name: Internet Gateway
+    acronym: IGW
+  - name: Network Access Control List
+    acronym: NACL
+  - name: Reduced Redundancy Storage
+    acronym: RRS
+  - name: Security Token Service
+    acronym: STS
+  - name: Virtual Interface
+    acronym: VIF
+  - name: Virtual Private Gateway
+    acronym: VGW
